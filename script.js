@@ -1,16 +1,14 @@
 // accept cookies
 
-let accept = document.querySelector("#cookies")
-
 function acceptCookies() {
+    let accept = document.querySelector("#cookies")
     accept.remove()
 }
 
 // alert when city selected
 
-let citySelect = document.querySelector(".city")
-
 function message() {
+    let citySelect = document.querySelector(".city")
     citySelect = alert("Loading Weather Report...")
 }
 
